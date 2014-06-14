@@ -129,7 +129,7 @@ Loading data from Hadoop to ElasticSearch cluster is quite easy using below depe
 </dependency>
 ```
 
-We create a new MapReduce job against TopN session data created earlier. We use `ESOutputFormat`, and MapWritable as `value`. We supply the ES conf from the Hadoop configuration.
+We create a new MapReduce job against TopN session data created earlier. We use `ESOutputFormat`, and `MapWritable` as value. We supply the ES conf from the Hadoop configuration.
 
 `hadoop jar lastfm-1.0-SNAPSHOT-jar-with-dependencies.jar com.aamend.hadoop.lastfm.TopSessionsETL -D es.nodes=localhost:9200 -D es.resource=radio/sessions input`
 
@@ -225,7 +225,7 @@ This will create a fat JAR including all dependencies required for the project e
 
 ## Authors
 
-Antoine Amend <antoine.amend@tagman.com>
+Antoine Amend <antoine.amend@gmail.com>
 
 
 
