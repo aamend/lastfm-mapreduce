@@ -6,7 +6,7 @@ http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
 
 ## Why Hadoop & MapReduce ?
 
-For only 1000 users, data file is about 600MB large. A sequential analysis would take a lot of time to complete, so let's distribute the work on an Hadoop environment. Furthermore, a Tab separated format will be easily analyzed on MapReduce job without having to preformat data.
+For only 1000 users, data file is already about 600MB large. A sequential analysis would take a lot of time to complete, so let's distribute the work on an Hadoop environment. Furthermore, a Tab separated format will be easily analyzed on MapReduce job without having to preformat data.
 
 ## Unique Users
 
